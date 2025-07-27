@@ -31,7 +31,7 @@ function HotelCard({ hotel }: {
             <div className="py-4 px-1">
                 <div className="flex items-center text-sm mb-1 text-gray-700">
                 <div className="flex items-center mr-1">
-                    <StarRating />
+                    <StarRating rating={hotel.rating}/>
                     {hotel.rating}
                 </div>
                 </div>
