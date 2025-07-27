@@ -25,11 +25,7 @@ function Header(){
                 </div>
                 <div className='flex items-center gap-6'>
                     <button className="border-2 border-[var(--color-primary)] text-[var(--color-primary)] rounded-full px-6 py-1 cursor-pointer hover:bg-[var(--color-primary)] hover:text-white transition-colors duration-300"><i className="icon ion-ios-call"></i>717-991-0737</button>
-                    {isMenuOpen ? (
-  <X className='md:hidden cursor-pointer' size={28} onClick={() => setIsMenuOpen(false)} />
-) : (
-  <Menu className='md:hidden cursor-pointer' size={28} onClick={() => setIsMenuOpen(true)} />
-)}
+                    {isMenuOpen ? (<X className='md:hidden cursor-pointer' size={28} onClick={() => setIsMenuOpen(false)} />) : (<Menu className='md:hidden cursor-pointer' size={28} onClick={() => setIsMenuOpen(true)} />)}
                 </div>
             </nav>
         </header>
