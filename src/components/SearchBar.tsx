@@ -6,7 +6,7 @@ function SearchBar(){
         <div className="flex justify-center">
             <div className="flex flex-col md:flex-row bg-white shadow w-full overflow-hidden md:rounded-full rounded-md">
                 <div className="flex items-center px-4 py-5 flex-1">
-                    <MapPin className="mr-3 text-[color:var(--color-primary)]" size={24} />
+                    <img src="/assets/icons/location.png" alt="flame" className="mr-3"/>
                     <div>
                         <small className="text-gray-800 font-semibold block text-base mb-1">
                             State
@@ -22,7 +22,7 @@ function SearchBar(){
                 </div>
 
                 <div className="flex items-center px-4 py-5 flex-1">
-                    <Calendar className="mr-3 text-[color:var(--color-primary)]" size={24} />
+                    <img src="/assets/icons/calender.png" alt="flame" className="mr-3"/>
                     <div>
                         <small className="text-gray-800 font-semibold block text-base mb-1">
                         Check in
@@ -38,7 +38,7 @@ function SearchBar(){
                     </div>
                 </div>
                 <div className="flex items-center px-4 py-5 flex-1">
-                    <Calendar className="mr-3 text-[color:var(--color-primary)]" size={24} />
+                    <img src="/assets/icons/calender.png" alt="flame" className="mr-3"/>
                     <div>
                         <small className="text-gray-800 font-semibold block text-base mb-1">
                         Check Out
@@ -54,7 +54,7 @@ function SearchBar(){
                     </div>
                 </div>
                 <div className="flex items-center px-4 py-5 flex-1">
-                    <Users className="mr-3 text-[color:var(--color-primary)]" size={24} />
+                    <img src="/assets/icons/guest.png" alt="flame" className="mr-3"/>
                     <div>
                         <small className="text-gray-800 font-semibold block text-base mb-1">
                         Guests
