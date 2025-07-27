@@ -1,4 +1,5 @@
 import logo from '../assets/images/logo/logo.png';
+import {Link} from 'react-router-dom';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react'
 function Header(){
@@ -12,14 +13,14 @@ function Header(){
                 <div className={`md:static absolute bg-white md:bg-transparent md:min-h-fit min-h-[30vh] left-0 w-full md:w-auto flex items-center px-5 transition-[top,opacity] duration-300 ease-in-out ${isMenuOpen ? 'top-[10%] opacity-100' : 'top-[-100%] opacity-0'} md:top-auto md:opacity-100`}>
                     <ul className='flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8'>
                         <li className="group relative cursor-pointer">
-                            <a href="#" className="inline-block text-black hover:text-[var(--color-primary)] pb-1 transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[var(--color-primary)] after:transition-all after:duration-300 group-hover:after:w-full">
+                            <Link to='/about' className="inline-block text-black hover:text-[var(--color-primary)] pb-1 transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[var(--color-primary)] after:transition-all after:duration-300 group-hover:after:w-full">
                                 About
-                            </a>
+                            </Link>
                         </li>
                         <li className="group relative cursor-pointer">
-                            <a href="#" className="inline-block text-black hover:text-[var(--color-primary)] pb-1 transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[var(--color-primary)] after:transition-all after:duration-300 group-hover:after:w-full">
+                            <Link to='/contactUs' className="inline-block text-black hover:text-[var(--color-primary)] pb-1 transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[var(--color-primary)] after:transition-all after:duration-300 group-hover:after:w-full">
                                 Contact
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
