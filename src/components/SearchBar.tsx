@@ -1,5 +1,3 @@
-import { MapPin, Calendar, Users } from "lucide-react";
-
 function SearchBar(){
   return (
     <div className="container mx-auto my-10 px-4">
