@@ -7,7 +7,7 @@ import About from './pages/About';
 import ContactUs from './pages/ContactUs';
 function App(){
   return(
-    <div className='app-container'>
+    <div className='app-container font-[Poppins] bg-gradient-to-t from-[#fff] to-[#fbeff0]'>
       <Header/>
       <main className='main-content'>
         <Routes>
