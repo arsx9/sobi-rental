@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import VideoModal from './VideoModal';
+import { VideoModal } from './VideoModal';
 function HeroVideo(){
     const [isModalOpen, setModalOpen] = useState<boolean>(false);
     return (

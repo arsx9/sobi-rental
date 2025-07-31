@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Lightbox from 'yet-another-react-lightbox';
 import type { ImageGalleryProps } from '../types/ImageGalleryProps';
-import VideoModal from './VideoModal';
+import { VideoModal } from './VideoModal';
 
 const ImageGallery: React.FC<ImageGalleryProps> = ({ images, videoThumbnail, videoUrl }) => {
   const slides = images.map((imgUrl) => ({ src: imgUrl }));
