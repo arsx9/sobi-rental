@@ -1,17 +1,8 @@
+import type { Hotel } from '../types/Hotel';
 import StarRating from './StarRating';
 import { Link } from 'react-router-dom';
 
-function HotelCard({ hotel }: {
-    hotel: {
-        id: number;
-        name: string;
-        imageUrl: string;
-        tagValue: string;
-        rating: number;
-        stayDays: number;
-        stayPrice: number;
-    };
-}) 
+export const HotelCard : React.FC<{hotel : Hotel}> = ({ hotel }) => 
 {
     return (
         <Link to={`/hotel/${hotel.id}`} className="block w-70 overflow-hidden rounded-xl">
@@ -48,5 +39,3 @@ function HotelCard({ hotel }: {
         </Link>
     );
 }
-
-export default HotelCard;
