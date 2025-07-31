@@ -45,7 +45,7 @@ function HotelDetailPage() {
     if (!hotel) return <p>No user data available.</p>;
     return (
         <>
-            <ImageGallery images={hotel.imageList} videoThumbnail={hotel.videoThumbnailUrl}/>
+            <ImageGallery images={hotel.imageList} videoThumbnail={hotel.videoThumbnailUrl} videoUrl={hotel.videoUrl}/>
         </>
     );
 }

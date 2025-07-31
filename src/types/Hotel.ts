@@ -3,6 +3,7 @@ export interface Hotel {
     name: string;
     thumbnailImageUrl: string;
     videoThumbnailUrl: string;
+    videoUrl: string;
     tagValue: string;
     rating: number;
     stayDays: number;

@@ -10,6 +10,7 @@ export const HotelCard : React.FC<{hotel : Hotel}> = ({ hotel }) =>
                 <img
                 src={hotel.thumbnailImageUrl}
                 alt={hotel.name}
+                loading="lazy"
                 className="w-full h-70 object-cover rounded-xl"
                 />
                 <span className="absolute top-2 left-2 bg-white text-red-600 text-xs font-semibold px-2 py-1 rounded-full flex items-center gap-1">
