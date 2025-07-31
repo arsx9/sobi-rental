@@ -1,7 +1,9 @@
 import StarRating from './StarRating';
+import { Link } from 'react-router-dom';
 
 function HotelCard({ hotel }: {
     hotel: {
+        id: number;
         name: string;
         imageUrl: string;
         tagValue: string;
@@ -12,7 +14,7 @@ function HotelCard({ hotel }: {
 }) 
 {
     return (
-        <a href="/hotel-details" className="block w-70 overflow-hidden rounded-xl">
+        <Link to={`/hotel/${hotel.id}`} className="block w-70 overflow-hidden rounded-xl">
             <div className="relative">
                 <img
                 src={hotel.imageUrl}
@@ -43,7 +45,7 @@ function HotelCard({ hotel }: {
                     <span className="font-semibold text-gray-800">${hotel.stayPrice}.00</span>
                 </p>
             </div>
-        </a>
+        </Link>
     );
 }
 
