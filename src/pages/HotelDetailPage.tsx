@@ -19,7 +19,7 @@ function HotelDetailPage() {
         const hotels: Hotel[] = await res.json();
         const foundHotel = hotels.find((hotel) => hotel.id === hotelId);
         if (!foundHotel) {
-            throw new Error('User not found');
+            throw new Error('Hotel not found');
         }
         setHotel(foundHotel);
         } catch (err: any) {

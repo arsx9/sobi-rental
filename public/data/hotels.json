@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Serena Hotel",
-    "imageUrl": "/assets/images/properties/img1.png",
+    "thumbnailImageUrl": "/assets/images/properties/slider/1.png",
     "tagValue": "Top Rated",
     "rating": 4.8,
     "stayDays": 3,
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Pearl Continental",
-    "imageUrl": "/assets/images/properties/img2.png",
+    "thumbnailImageUrl": "/assets/images/properties/slider/2.png",
     "tagValue": "Popular",
     "rating": 4.6,
     "stayDays": 2,
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Marriott Hotel",
-    "imageUrl": "/assets/images/properties/img3.png",
+    "thumbnailImageUrl": "/assets/images/properties/slider/3.png",
     "tagValue": "Luxury",
     "rating": 4.9,
     "stayDays": 5,
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "Hilton Garden Inn",
-    "imageUrl": "/assets/images/properties/img1.png",
+    "thumbnailImageUrl": "/assets/images/properties/slider/4.png",
     "tagValue": "Budget",
     "rating": 4.2,
     "stayDays": 2,
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "name": "Holiday Inn",
-    "imageUrl": "/assets/images/properties/img3.png",
+    "thumbnailImageUrl": "/assets/images/properties/slider/5.png",
     "tagValue": "Top Pick",
     "rating": 4.5,
     "stayDays": 4,
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "name": "Ramada Plaza",
-    "imageUrl": "/assets/images/properties/img2.png",
+    "thumbnailImageUrl": "/assets/images/properties/slider/6.jpg",
     "tagValue": "Special Offer",
     "rating": 4.3,
     "stayDays": 3,
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "name": "Avari Towers",
-    "imageUrl": "/assets/images/properties/img1.png",
+    "thumbnailImageUrl": "/assets/images/properties/slider/7.jpg",
     "tagValue": "Family Friendly",
     "rating": 4.7,
     "stayDays": 2,
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "name": "The Nishat Hotel",
-    "imageUrl": "/assets/images/properties/img3.png",
+    "thumbnailImageUrl": "/assets/images/properties/slider/8.jpg",
     "tagValue": "Trending",
     "rating": 4.6,
     "stayDays": 3,
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "name": "Faletti’s Hotel",
-    "imageUrl": "/assets/images/properties/img2.png",
+    "thumbnailImageUrl": "/assets/images/properties/slider/9.jpg",
     "tagValue": "Classic",
     "rating": 4.4,
     "stayDays": 3,
@@ -83,7 +83,7 @@
   {
     "id": 10,
     "name": "Movënpick Hotel",
-    "imageUrl": "/assets/images/properties/img1.png",
+    "thumbnailImageUrl": "/assets/images/properties/slider/10.jpg",
     "tagValue": "Hot Deal",
     "rating": 4.5,
     "stayDays": 4,

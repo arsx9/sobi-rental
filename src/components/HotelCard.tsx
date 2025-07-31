@@ -8,7 +8,7 @@ export const HotelCard : React.FC<{hotel : Hotel}> = ({ hotel }) =>
         <Link to={`/hotel/${hotel.id}`} className="block w-70 overflow-hidden rounded-xl">
             <div className="relative">
                 <img
-                src={hotel.imageUrl}
+                src={hotel.thumbnailImageUrl}
                 alt={hotel.name}
                 className="w-full h-70 object-cover rounded-xl"
                 />
