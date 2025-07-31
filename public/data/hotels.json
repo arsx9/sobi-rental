@@ -3,90 +3,222 @@
     "id": 1,
     "name": "Serena Hotel",
     "thumbnailImageUrl": "/assets/images/properties/slider/1.png",
+    "videoThumbnailUrl": "/assets/images/properties/img1.png",
     "tagValue": "Top Rated",
     "rating": 4.8,
     "stayDays": 3,
-    "stayPrice": 450
+    "stayPrice": 450,
+    "imageList": [
+      "/assets/images/properties/slider/6.jpg",
+      "/assets/images/properties/slider/7.jpg",
+      "/assets/images/properties/slider/8.jpg",
+      "/assets/images/properties/slider/9.jpg",
+      "/assets/images/properties/slider/10.jpg",
+      "/assets/images/properties/slider/11.jpg",
+      "/assets/images/properties/slider/12.jpg",
+      "/assets/images/properties/slider/13.jpg",
+      "/assets/images/properties/slider/14.jpg",
+      "/assets/images/properties/slider/15.jpg"
+    ]
   },
   {
     "id": 2,
     "name": "Pearl Continental",
     "thumbnailImageUrl": "/assets/images/properties/slider/2.png",
+    "videoThumbnailUrl": "/assets/images/properties/img1.png",
     "tagValue": "Popular",
     "rating": 4.6,
     "stayDays": 2,
-    "stayPrice": 300
+    "stayPrice": 300,
+    "imageList": [
+      "/assets/images/properties/slider/16.jpg",
+      "/assets/images/properties/slider/17.jpg",
+      "/assets/images/properties/slider/18.jpg",
+      "/assets/images/properties/slider/19.jpg",
+      "/assets/images/properties/slider/20.jpg",
+      "/assets/images/properties/slider/21.jpg",
+      "/assets/images/properties/slider/22.jpg",
+      "/assets/images/properties/slider/23.jpg",
+      "/assets/images/properties/slider/24.jpg",
+      "/assets/images/properties/slider/25.jpg"
+    ]
   },
   {
     "id": 3,
     "name": "Marriott Hotel",
     "thumbnailImageUrl": "/assets/images/properties/slider/3.png",
+    "videoThumbnailUrl": "/assets/images/properties/img1.png",
     "tagValue": "Luxury",
     "rating": 4.9,
     "stayDays": 5,
-    "stayPrice": 900
+    "stayPrice": 900,
+    "imageList": [
+      "/assets/images/properties/slider/26.jpg",
+      "/assets/images/properties/slider/6.jpg",
+      "/assets/images/properties/slider/7.jpg",
+      "/assets/images/properties/slider/8.jpg",
+      "/assets/images/properties/slider/9.jpg",
+      "/assets/images/properties/slider/10.jpg",
+      "/assets/images/properties/slider/11.jpg",
+      "/assets/images/properties/slider/12.jpg",
+      "/assets/images/properties/slider/13.jpg",
+      "/assets/images/properties/slider/14.jpg",
+      "/assets/images/properties/slider/15.jpg",
+      "/assets/images/properties/slider/16.jpg"
+    ]
   },
   {
     "id": 4,
     "name": "Hilton Garden Inn",
     "thumbnailImageUrl": "/assets/images/properties/slider/4.png",
+    "videoThumbnailUrl": "/assets/images/properties/img1.png",
     "tagValue": "Budget",
     "rating": 4.2,
     "stayDays": 2,
-    "stayPrice": 250
+    "stayPrice": 250,
+    "imageList": [
+      "/assets/images/properties/slider/17.jpg",
+      "/assets/images/properties/slider/18.jpg",
+      "/assets/images/properties/slider/19.jpg",
+      "/assets/images/properties/slider/20.jpg",
+      "/assets/images/properties/slider/21.jpg",
+      "/assets/images/properties/slider/22.jpg",
+      "/assets/images/properties/slider/23.jpg",
+      "/assets/images/properties/slider/24.jpg",
+      "/assets/images/properties/slider/25.jpg",
+      "/assets/images/properties/slider/26.jpg"
+    ]
   },
   {
     "id": 5,
     "name": "Holiday Inn",
-    "thumbnailImageUrl": "/assets/images/properties/slider/5.png",
+    "thumbnailImageUrl": "/assets/images/properties/slider/6.jpg",
+    "videoThumbnailUrl": "/assets/images/properties/img1.png",
     "tagValue": "Top Pick",
     "rating": 4.5,
     "stayDays": 4,
-    "stayPrice": 400
+    "stayPrice": 400,
+    "imageList": [
+      "/assets/images/properties/slider/6.jpg",
+      "/assets/images/properties/slider/7.jpg",
+      "/assets/images/properties/slider/8.jpg",
+      "/assets/images/properties/slider/9.jpg",
+      "/assets/images/properties/slider/10.jpg",
+      "/assets/images/properties/slider/11.jpg",
+      "/assets/images/properties/slider/12.jpg",
+      "/assets/images/properties/slider/13.jpg",
+      "/assets/images/properties/slider/14.jpg",
+      "/assets/images/properties/slider/15.jpg"
+    ]
   },
   {
     "id": 6,
     "name": "Ramada Plaza",
-    "thumbnailImageUrl": "/assets/images/properties/slider/6.jpg",
+    "thumbnailImageUrl": "/assets/images/properties/slider/7.jpg",
+    "videoThumbnailUrl": "/assets/images/properties/img1.png",
     "tagValue": "Special Offer",
     "rating": 4.3,
     "stayDays": 3,
-    "stayPrice": 360
+    "stayPrice": 360,
+    "imageList": [
+      "/assets/images/properties/slider/16.jpg",
+      "/assets/images/properties/slider/17.jpg",
+      "/assets/images/properties/slider/18.jpg",
+      "/assets/images/properties/slider/19.jpg",
+      "/assets/images/properties/slider/20.jpg",
+      "/assets/images/properties/slider/21.jpg",
+      "/assets/images/properties/slider/22.jpg",
+      "/assets/images/properties/slider/23.jpg",
+      "/assets/images/properties/slider/24.jpg",
+      "/assets/images/properties/slider/25.jpg"
+    ]
   },
   {
     "id": 7,
     "name": "Avari Towers",
-    "thumbnailImageUrl": "/assets/images/properties/slider/7.jpg",
+    "thumbnailImageUrl": "/assets/images/properties/slider/8.jpg",
+    "videoThumbnailUrl": "/assets/images/properties/img1.png",
     "tagValue": "Family Friendly",
     "rating": 4.7,
     "stayDays": 2,
-    "stayPrice": 320
+    "stayPrice": 320,
+    "imageList": [
+      "/assets/images/properties/slider/26.jpg",
+      "/assets/images/properties/slider/6.jpg",
+      "/assets/images/properties/slider/7.jpg",
+      "/assets/images/properties/slider/8.jpg",
+      "/assets/images/properties/slider/9.jpg",
+      "/assets/images/properties/slider/10.jpg",
+      "/assets/images/properties/slider/11.jpg",
+      "/assets/images/properties/slider/12.jpg",
+      "/assets/images/properties/slider/13.jpg",
+      "/assets/images/properties/slider/14.jpg"
+    ]
   },
   {
     "id": 8,
     "name": "The Nishat Hotel",
-    "thumbnailImageUrl": "/assets/images/properties/slider/8.jpg",
+    "thumbnailImageUrl": "/assets/images/properties/slider/9.jpg",
+    "videoThumbnailUrl": "/assets/images/properties/img1.png",
     "tagValue": "Trending",
     "rating": 4.6,
     "stayDays": 3,
-    "stayPrice": 500
+    "stayPrice": 500,
+    "imageList": [
+      "/assets/images/properties/slider/15.jpg",
+      "/assets/images/properties/slider/16.jpg",
+      "/assets/images/properties/slider/17.jpg",
+      "/assets/images/properties/slider/18.jpg",
+      "/assets/images/properties/slider/19.jpg",
+      "/assets/images/properties/slider/20.jpg",
+      "/assets/images/properties/slider/21.jpg",
+      "/assets/images/properties/slider/22.jpg",
+      "/assets/images/properties/slider/23.jpg",
+      "/assets/images/properties/slider/24.jpg"
+    ]
   },
   {
     "id": 9,
     "name": "Faletti’s Hotel",
-    "thumbnailImageUrl": "/assets/images/properties/slider/9.jpg",
+    "thumbnailImageUrl": "/assets/images/properties/slider/10.jpg",
+    "videoThumbnailUrl": "/assets/images/properties/img1.png",
     "tagValue": "Classic",
     "rating": 4.4,
     "stayDays": 3,
-    "stayPrice": 370
+    "stayPrice": 370,
+    "imageList": [
+      "/assets/images/properties/slider/25.jpg",
+      "/assets/images/properties/slider/26.jpg",
+      "/assets/images/properties/slider/6.jpg",
+      "/assets/images/properties/slider/7.jpg",
+      "/assets/images/properties/slider/8.jpg",
+      "/assets/images/properties/slider/9.jpg",
+      "/assets/images/properties/slider/10.jpg",
+      "/assets/images/properties/slider/11.jpg",
+      "/assets/images/properties/slider/12.jpg",
+      "/assets/images/properties/slider/13.jpg"
+    ]
   },
   {
     "id": 10,
     "name": "Movënpick Hotel",
-    "thumbnailImageUrl": "/assets/images/properties/slider/10.jpg",
+    "thumbnailImageUrl": "/assets/images/properties/slider/11.jpg",
+    "videoThumbnailUrl": "/assets/images/properties/img1.png",
     "tagValue": "Hot Deal",
     "rating": 4.5,
     "stayDays": 4,
-    "stayPrice": 420
+    "stayPrice": 420,
+    "imageList": [
+      "/assets/images/properties/slider/14.jpg",
+      "/assets/images/properties/slider/15.jpg",
+      "/assets/images/properties/slider/16.jpg",
+      "/assets/images/properties/slider/17.jpg",
+      "/assets/images/properties/slider/18.jpg",
+      "/assets/images/properties/slider/19.jpg",
+      "/assets/images/properties/slider/20.jpg",
+      "/assets/images/properties/slider/21.jpg",
+      "/assets/images/properties/slider/22.jpg",
+      "/assets/images/properties/slider/23.jpg"
+    ]
   }
 ]

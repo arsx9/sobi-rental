@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ImageGallery from '../components/ImageGallery';
 import type { Hotel } from '../types/Hotel';
+import Spinner from '../components/Spinner';
 
 function HotelDetailPage() {
     const { id } = useParams<{ id: string }>();
@@ -39,21 +40,13 @@ function HotelDetailPage() {
             }
         }
     }, [id]);
-    if (loading) return <p>Loading user details...</p>;
+    if (loading) return <Spinner/>;
     if (error) return <p>Error: {error}</p>;
     if (!hotel) return <p>No user data available.</p>;
     return (
-        <div>
-            <h2>{hotel.name}'s Details</h2>
-            {/* <p><strong>Email:</strong> {user.email}</p>
-            <p><strong>Instagram:</strong> {user.instagram}</p>
-            <p><strong>Snapchat:</strong> {user.snapchat}</p>
-            <p><strong>WhatsApp:</strong> {user.whatsapp}</p>
-            <p><strong>Company:</strong> {user.company}</p>
-            <p><strong>Designation:</strong> {user.designation}</p>
-            <br />
-            <Link to="/">← Back to User List</Link> */}
-        </div>
+        <>
+            <ImageGallery images={hotel.imageList} videoThumbnail={hotel.videoThumbnailUrl}/>
+        </>
     );
 }
 
