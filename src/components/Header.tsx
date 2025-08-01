@@ -77,7 +77,7 @@ function Header() {
                             href="tel:7179910737"
                             className="inline-block border-2 border-[var(--color-primary)] text-[var(--color-primary)] rounded-full px-4 py-1 hover:bg-[var(--color-primary)] text-sm hover:text-white transition duration-300"
                         >
-                            <i className="icon ion-ios-call mr-1"></i> 717-991-0737
+                            717-991-0737
                         </a>
                     </li>
                 </ul>

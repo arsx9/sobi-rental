@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import ImageGallery from '../components/ImageGallery';
 import type { Hotel } from '../types/Hotel';
 import Spinner from '../components/Spinner';
+import HotelOverview from '../components/HotelOverview';
 
 function HotelDetailPage() {
     const { id } = useParams<{ id: string }>();
@@ -46,6 +47,7 @@ function HotelDetailPage() {
     return (
         <>
             <ImageGallery images={hotel.imageList} videoThumbnail={hotel.videoThumbnailUrl} videoUrl={hotel.videoUrl}/>
+            <HotelOverview hotel={hotel}/>
         </>
     );
 }
