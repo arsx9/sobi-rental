@@ -3,6 +3,7 @@ import { Phone } from "lucide-react";
 import type { Hotel } from "../types/Hotel";
 import RatingOverview from "./RatingOverview";
 import ReviewList from "./ReviewList";
+import ShowMap from "./ShowMap";
 const HotelOverview : React.FC<{hotel : Hotel}> = ({hotel}) => {
   const tabs = ["Overview", "Amenities", "Policies"];
   const [activeTab, setActiveTab] = useState("Overview");
@@ -218,6 +219,8 @@ const HotelOverview : React.FC<{hotel : Hotel}> = ({hotel}) => {
     <RatingOverview/>
     {/* Review */}
     <ReviewList/>
+    {/* Map */}
+    <ShowMap/>
     </>
   );
 };

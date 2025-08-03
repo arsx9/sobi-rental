@@ -50,7 +50,7 @@ const reviews = [
 
 const ReviewList = () => {
   return (
-    <div className="border-b border-gray-300 mx-1 pb-12">
+    <div className="border-b border-gray-300 mx-5 pb-12">
       <div className="p-4 grid grid-cols-1 md:grid-cols-2 gap-2">
         {reviews.map((review, index) => (
           <div key={index} className="p-4">
