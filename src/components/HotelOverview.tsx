@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { Phone } from "lucide-react";
 import type { Hotel } from "../types/Hotel";
+import RatingOverview from "./RatingOverview";
+import ReviewList from "./ReviewList";
 const HotelOverview : React.FC<{hotel : Hotel}> = ({hotel}) => {
   const tabs = ["Overview", "Amenities", "Policies"];
   const [activeTab, setActiveTab] = useState("Overview");
   return (
-    
+    <>
     <div className="flex flex-col md:flex-row w-full px-5 md:px-10">
       {/* Left Part */}
       <div className="w-full md:w-1/2 flex items-start justify-start">
@@ -78,8 +80,98 @@ const HotelOverview : React.FC<{hotel : Hotel}> = ({hotel}) => {
             <p>
               Are you looking for a home where you want your family to be comfortable, and a nearby park for the kids?  Great! Look no further, we have a massive park right behind the property.  MAKE YOUR RESERVATION TODAY!!! 
             </p>
-            <button className="flex items-center bg-gray-300 text-black font-semibold px-4 py-2 rounded-full hover:bg-[var(--color-primary)] transition text-sm md:text-base mt-5 hover:text-white">
+            <button className="flex items-center bg-gray-300 text-gray-700 font-semibold px-4 py-2 rounded-full hover:bg-[var(--color-primary)] transition text-sm md:text-base mt-5 hover:text-white">
                 Show more
+            </button>
+          </div>
+          {/* Where You will Sleep */}
+          <h3 className="text-xl font-semibold mt-15">Where you’ll sleep</h3>
+          <div className="flex flex-col md:flex-row justify-center gap-8 py-8 px-4 max-w-6xl mx-auto border-b border-gray-300">
+            {/* Card 1 */}
+            <div className="flex-1 flex flex-col items-start text-center border border-gray-300 p-5 rounded-lg">
+              <div className="text-blue-600 text-5xl mb-4">
+                <img src="/assets/icons/bedroom.png" alt="icon" className="w-5 h-5" />
+              </div>
+              <h4 className="text-md text-gray-800 font-semibold mb-2">Bedroom 1</h4>
+              <p className="text-gray-600 text-sm">1 queen bed</p>
+            </div>
+
+            {/* Card 2 */}
+            <div className="flex-1 flex flex-col items-start text-center border border-gray-300 p-5 rounded-lg">
+              <div className="text-blue-600 text-5xl mb-4">
+                <img src="/assets/icons/bedroom.png" alt="icon" className="w-5 h-5" />
+              </div>
+              <h4 className="text-md text-gray-800 font-semibold mb-2">Bedroom 2</h4>
+              <p className="text-gray-600 text-sm">1 queen bed</p>
+            </div>
+
+            {/* Card 3 */}
+            <div className="flex-1 flex flex-col items-start text-center border border-gray-300 p-5 rounded-lg">
+              <div className="text-blue-600 text-5xl mb-4">
+                <img src="/assets/icons/livingroom.png" alt="icon" className="w-5 h-5" />
+              </div>
+              <h4 className="text-md text-gray-800 font-semibold mb-2">Living Room</h4>
+              <p className="text-gray-600 text-sm">1 sofa bed</p>
+            </div>
+          </div>
+          {/* What this Place Offer */}
+          <div className="border-b border-gray-300 pb-10">
+            <h3 className="text-xl font-semibold mt-12 mb-6">What this place offers</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              
+              <div className="flex">
+                <img src="/assets/icons/d-kitchen.png" alt="icon" className="w-5 h-5 mb-2 me-3" />
+                <p className="text-gray-600 text-sm">Kitchen</p>
+              </div>
+
+              <div className="flex items-start">
+                <img src="/assets/icons/d-wifi.png" alt="icon" className="w-5 h-4 mb-2 me-3" />
+                <p className="text-gray-600 text-sm">Wifi</p>
+              </div>
+
+              <div className="flex items-start">
+                <img src="/assets/icons/d-parking.png" alt="icon" className="w-5 h-4 mb-2 me-3" />
+                <p className="text-gray-600 text-sm">Free parking on premises</p>
+              </div>
+
+              <div className="flex items-start">
+                <img src="/assets/icons/d-pets.png" alt="icon" className="w-5 h-4 mb-2 me-3" />
+                <p className="text-gray-600 text-sm">Pets allowed</p>
+              </div>
+
+              <div className="flex items-start">
+                <img src="/assets/icons/d-tv.png" alt="icon" className="w-5 h-4 mb-2 me-3" />
+                <p className="text-gray-600 text-sm">TV</p>
+              </div>
+              
+              <div className="flex items-start">
+                <img src="/assets/icons/d-ac.png" alt="icon" className="w-4 h-4 mb-2 me-3" />
+                <p className="text-gray-600 text-sm">Air conditioning</p>
+              </div>
+              
+              <div className="flex items-start">
+                <img src="/assets/icons/d-balcony.png" alt="icon" className="w-4 h-4 mb-2 me-3" />
+                <p className="text-gray-600 text-sm">Patio or balcony</p>
+              </div>
+              
+              <div className="flex items-start">
+                <img src="/assets/icons/d-garden.png" alt="icon" className="w-4 h-4 mb-2 me-3" />
+                <p className="text-gray-600 text-sm">Garden</p>
+              </div>
+              
+              <div className="flex items-start">
+                <img src="/assets/icons/d-luggage.png" alt="icon" className="w-4 h-4 mb-2 me-3" />
+                <p className="text-gray-600 text-sm">Luggage drop-off allowed</p>
+              </div>
+              
+              <div className="flex items-start">
+                <img src="/assets/icons/d-travel.png" alt="icon" className="w-4 h-4 mb-2 me-3" />
+                <p className="text-gray-600 text-sm">Travel cot</p>
+              </div>
+
+            </div>
+            <button className="flex items-center bg-gray-300 text-gray-700 font-semibold px-4 py-2 rounded-full hover:bg-[var(--color-primary)] transition text-sm md:text-base mt-5 hover:text-white">
+              Show all 31 amenities
             </button>
           </div>
         </div>
@@ -122,6 +214,11 @@ const HotelOverview : React.FC<{hotel : Hotel}> = ({hotel}) => {
       </div>
       </div>
     </div>
+    {/* Rating */}
+    <RatingOverview/>
+    {/* Review */}
+    <ReviewList/>
+    </>
   );
 };
 
