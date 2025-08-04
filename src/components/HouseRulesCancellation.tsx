@@ -90,15 +90,23 @@ export default function HouseRulesCancellation() {
                         <span className="text-sm text-gray-600">Check In</span>
                     </div>
                 </div>
-                <div className="col-span-1 flex flex-col items-start text-start">
-                    <p>Before</p>
-                    <p>July 18</p>
+                <div className="col-span-2 md:col-span-1 flex flex-col items-start text-start my-2 md:my-10">
+                    <p className="text-xs text-gray-400">Before</p>
+                    <p className="text-md text-gray-800 mt-2">July 18</p>
                 </div>
-                <div className="col-span-3 flex flex-col items-start text-start">
-                    <p>Partial Refund</p>
-                    <p>If you cancel your reservation before jul 18 at 11:59 PM, you’ll be charged a fee of $50.00. Times are based on the property’s local time.</p>
+                <div className="col-span-3 flex flex-col items-start text-start my-2  md:my-10">
+                    <p className="font-bold">Partial Refund</p>
+                    <p className="text-sm">If you cancel your reservation before jul 18 at 11:59 PM, you’ll be charged a fee of $50.00. Times are based on the property’s local time.</p>
                 </div>
                 <div className="col-span-4 border-b border-gray-300"></div>
+                <div className="col-span-2 md:col-span-1 flex flex-col items-start text-start my-2 md:my-10">
+                    <p className="text-xs text-gray-400">After</p>
+                    <p className="text-md text-gray-800 mt-2">July 18</p>
+                </div>
+                <div className="col-span-3 flex flex-col items-start text-start my-2  md:my-10">
+                    <p className="font-bold">No Refund</p>
+                    <p className="text-sm">After that, you won't get a refund.</p>
+                </div>
             </div>
         </div>
     </div>

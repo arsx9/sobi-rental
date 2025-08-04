@@ -61,7 +61,7 @@ const ReviewList = () => {
                 <p className="text-sm text-gray-500">{review.location}</p>
               </div>
             </div>
-            <div className="flex text-sm text-gray-600 mb-1">
+            <div className="flex flex-col md:flex-row text-sm text-gray-600 mb-1">
               <StarRating rating={4.5} width={3} height={3}/>
               <div>· {review.date} · {review.stayType}</div>
             </div>
