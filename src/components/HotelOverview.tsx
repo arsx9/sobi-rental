@@ -4,6 +4,7 @@ import type { Hotel } from "../types/Hotel";
 import RatingOverview from "./RatingOverview";
 import ReviewList from "./ReviewList";
 import ShowMap from "./ShowMap";
+import HouseRulesCancellation from "./HouseRulesCancellation";
 const HotelOverview : React.FC<{hotel : Hotel}> = ({hotel}) => {
   const tabs = ["Overview", "Amenities", "Policies"];
   const [activeTab, setActiveTab] = useState("Overview");
@@ -221,6 +222,8 @@ const HotelOverview : React.FC<{hotel : Hotel}> = ({hotel}) => {
     <ReviewList/>
     {/* Map */}
     <ShowMap/>
+    {/* house rule and cancelation process */}
+    <HouseRulesCancellation/>
     </>
   );
 };
