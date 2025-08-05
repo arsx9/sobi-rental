@@ -1,0 +1,19 @@
+/* ====== Base Calendar Styling ====== */
+.rdrCalendarWrapper {
+  background: transparent !important;
+  font-family: sans-serif !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.rdrDateDisplayWrapper{
+    background: transparent !important;
+}
+.rdrDateDisplayItem{
+    background: transparent !important;
+    /* box-shadow: none; */
+    /* border: 2px solid #7d888d; */
+}
+.rdrDateDisplayItemActive{
+    border-color: #c31d2c;
+}
+.rdrDateDisplayItem

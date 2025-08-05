@@ -5,6 +5,7 @@ import RatingOverview from "./RatingOverview";
 import ReviewList from "./ReviewList";
 import ShowMap from "./ShowMap";
 import HouseRulesCancellation from "./HouseRulesCancellation";
+import DatePicker from "./DatePicker";
 const HotelOverview : React.FC<{hotel : Hotel}> = ({hotel}) => {
   const tabs = ["Overview", "Amenities", "Policies"];
   const [activeTab, setActiveTab] = useState("Overview");
@@ -176,6 +177,8 @@ const HotelOverview : React.FC<{hotel : Hotel}> = ({hotel}) => {
               Show all 31 amenities
             </button>
           </div>
+          {/* Date Range Picker */}
+          <DatePicker/>
         </div>
       </div>
       {/* Right Part */}
