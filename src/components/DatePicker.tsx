@@ -11,6 +11,7 @@ const DatePicker = () => {
         startDate: today,
         endDate: today,
         key: 'selection',
+        color: "#c31d2c"
     });
 
     const handleClear = () => {
@@ -18,6 +19,7 @@ const DatePicker = () => {
             startDate: today,
             endDate: today,
             key: 'selection',
+            color: "#c31d2c"
         });
     };
 
@@ -27,6 +29,8 @@ const DatePicker = () => {
 
     return (
         <div>
+            <h3 className="text-xl font-semibold mt-12">Select check-in date</h3>
+            <p className='text-gray-600 text-sm mb-5'>Add your travel dates for exact pricing</p>
             <DateRange
                 ranges={[date]}
                 onChange={handleSelect}
@@ -36,18 +40,15 @@ const DatePicker = () => {
                 calendarFocus="forward"
             />
 
-            <div style={{ marginTop: '10px', textAlign: 'center' }}>
+            <div style={{ marginTop: '30px', textAlign: 'end' }}>
                 <button
                     onClick={handleClear}
                     style={{
-                        padding: '8px 16px',
-                        borderRadius: '4px',
-                        border: '1px solid #ccc',
-                        backgroundColor: '#f5f5f5',
                         cursor: 'pointer'
                     }}
+                    className="underline text-sm"
                 >
-                    Reset to Today
+                    Clear Dates
                 </button>
             </div>
         </div>

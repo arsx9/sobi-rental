@@ -4,6 +4,7 @@
   font-family: sans-serif !important;
   box-shadow: none !important;
   border: none !important;
+  font-size: 15px;
 }
 .rdrDateDisplayWrapper{
     background: transparent !important;
@@ -16,4 +17,3 @@
 .rdrDateDisplayItemActive{
     border-color: #c31d2c;
 }
-.rdrDateDisplayItem
